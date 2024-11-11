@@ -22,6 +22,32 @@ body{
     box-shadow: 10px 10px 10px rgba(38, 33, 61, 0.2);
 }
 
+@media screen and (max-width: 767px) {
+    #DictContainer{
+        width: 96%;
+    }
+
+    #inputCont{
+        flex-direction: column;
+        gap: 10px;
+        flex-grow: 1;
+    }
+
+    input[type = 'text']{
+        width: 100% !important;
+    }
+    
+    input[type = 'submit']{
+        width: 100% !important;
+    }
+
+    #closeBtn{
+        display: none;
+    }
+
+
+}
+
 #inputCont{
     width: 100%;
     display: flex;
